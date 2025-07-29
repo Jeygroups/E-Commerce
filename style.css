@@ -1,0 +1,193 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Category Links */
+.categories a {
+  font-weight: 500;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+}
+
+.categories a:hover {
+  color: #2874f0;
+}
+
+/* Carousel Banner */
+.carousel-inner img {
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Deals Section */
+.deal-box {
+  background-color: #fff;
+  transition: box-shadow 0.3s;
+}
+
+.deal-box:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.deal-box p {
+  margin: 10px 0 5px;
+  font-size: 14px;
+}
+
+.deal-box span {
+  font-size: 13px;
+}
+
+.col img{
+  height: 100px;
+}
+
+/* Card-like styling for 6-column layout */
+.deal-box {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.deal-box img {
+  height: 100px;
+  object-fit: contain;
+}
+
+.product-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1); /* Flipkart-style subtle shadow */
+  padding: 15px;
+}
+
+/* Optional: fine-tune text styling for product cards */
+.deal-box p {
+  font-weight: 500;
+  margin: 8px 0 4px;
+}
+
+.deal-box span {
+  color: #388e3c; /* Flipkart-style green price color */
+  font-weight: bold;
+}
+
+/* Enable hover dropdown */
+.category-item:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Remove gap between item and dropdown */
+}
+
+ body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer {
+  background-color: #000;
+  color: white;
+  padding: 40px 20px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin: 5px 0;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.footer-column ul li:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  border-top: 1px solid #444;
+  padding-top: 20px;
+}
+
+.subscribe {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.subscribe input {
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 2px;
+  width: 200px;
+}
+
+.subscribe button {
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.region-select {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.region-select select {
+  padding: 8px;
+  margin-left: 10px;
+}
+
+.social-icons {
+  flex: 1;
+  text-align: left;
+}
+
+.social-icons i {
+  font-size: 18px;
+  margin-left: 10px;
+  cursor: pointer;
+  
+}
+
+.footer-legal {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.footer-legal a {
+  color: #ccc;
+  text-decoration: underline;
+}
